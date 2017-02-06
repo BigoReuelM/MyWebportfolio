@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="utf-8">
+	</head>
+	
+	<body style="background-color: lightblue">
+		<div style="background-color:powderblue;color:Black">
+			<h2 style="font-family: verdana;color:red;font-size: 300%">Hello, I am Reuel Bigo</h2>
+			<p style="font-family: courier;font-size: 160%">Currently studieng BSIT at Saint Luis University</p>
+			<p style="font-family: courier;font-size: 160%">Located at Baguio City</p>
+		</div>
+		<header role="banner">
+		</header>
+		
+		<footer>
+		</footer>
+	</body>
+	
+</html>
