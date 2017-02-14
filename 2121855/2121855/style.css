@@ -1,0 +1,136 @@
+body
+{
+	/*background-image : url("image/back.png");*/
+	padding: 0;
+	margin: 0;
+	min-height: 100%;
+}
+
+#container
+{
+	height: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+header 
+{
+	height: 75%;
+	text-align: center;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	display: block;
+	width: 20%;
+	position: fixed;
+	margin-right: 1%;
+	margin-left: 1%;
+	background-color: black;
+	border: 0.5em solid #e6e6e6;
+	box-shadow: 2% 2% 1% #cccccc;
+	padding-top: 10%;
+}
+
+#menu ul li
+{
+	background-color: white;
+	color: black;
+	border: 0.5em	 solid black;
+	border-radius: 1%;
+	margin-right: 10%;
+	display: block;
+	padding: 15px;
+
+}
+
+#menu ul li a 
+{
+	text-decoration: none;	
+	font-size: 20px;
+}
+
+#menu ul li a:hover {
+	color: red;
+}
+
+
+.current_page_item
+{
+	background-color: pink;
+}
+
+#name
+{
+	font-family: "Brush Script MT", cursive;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 0;
+}
+
+#work
+{
+	font-family: "Papyrus", fantasy;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 0;
+}
+
+.profile
+{
+	border: 3em solid lightblue;
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+}
+
+#content
+{
+	right: 5px;
+	position: absolute;
+	border: 2px solid #e6e6e6;
+	border-radius: 5px;
+	width: 78%;
+	display: block;
+}
+
+.post
+{	
+	padding-bottom: 10px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.post h2
+{
+	text-align: center;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.post p
+{
+	text-indent: 50px;
+	text-align: justify;
+	letter-spacing: 2.5px;
+	line-height: 30px;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0;	
+	width: 100%;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #202013;
+	opacity: 0;
+}
+footer:hover
+{
+	opacity: 0.7;
+}
